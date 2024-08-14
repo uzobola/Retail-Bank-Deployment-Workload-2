@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh '''#!/bin/bash
                 source venv/bin/activate
-                eb create [Automated Retail Deployment] --single
+                eb create [deployment2_main] --single
                 '''
             }
         }
