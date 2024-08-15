@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh '''#!/bin/bash
                 source venv/bin/activate
-                eb create "Automated Retail Bank" --single
+                eb create "Automated-Retail-Bank" --single
                 '''
             }
         }
