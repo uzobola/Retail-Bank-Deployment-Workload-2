@@ -1,7 +1,7 @@
 # **Automated Retail Bank Deployment**
 
 
-![Alt text](Copy of Automated Retail Banking App 2.drawio (1).png)
+!Copy of Automated Retail Banking App 2.drawio (1).png
 
 
 
