@@ -1,9 +1,9 @@
 # **Automated Retail Bank Deployment**
-
+ ---
 
 ![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Copy%20of%20Automated%20Retail%20Banking%20App%202.drawio%20(1).png)
 
-
+---
 
 **Clone this repo to your GitHub account.**
 
@@ -42,6 +42,7 @@ $sudo systemctl status jenkins
 
 ```
 
+![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/blob/raw/Jenkins%20Running.png)
 
 
 ### **Create a MultiBranch Pipeline and connect it to GitHub Repo**
