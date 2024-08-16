@@ -1,7 +1,7 @@
 # **Automated Retail Bank Deployment**
 
 
-!Copy of Automated Retail Banking App 2.drawio (1).png
+![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Copy%20of%20Automated%20Retail%20Banking%20App%202.drawio%20(1).png)
 
 
 
