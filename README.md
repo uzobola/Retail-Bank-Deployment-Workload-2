@@ -99,6 +99,36 @@ c. Click "Save" and a build should start automatically
 
 ---
 
+
+Initialize AWS Elastic Beanstalk CLI
+
+a. run $ eb init to initialize AWS EC CLI
+
+**Adding a "deploy" stage to the Jenkinsfile**
+
+a. use your text editor of choice to edit the "jenkinsfile"
+
+b. add the following code block (modify the code with your environment name and remove the square brackets) AFTER the "Test" Stage:
+
+---
+
+![Deploy with Jenkinsfile](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/deploy%20with%20jenkinsfile.png)
+
+
+---
+
+
+Navigate back to the Jenkins Console and build the pipeline again.
+
+---
+
+![Successful Jenkins](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Successful%20Jenkins.png)
+
+
+![Application Server Running](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/application%20server%20running.png)
+
+
+---
 ### **"OPTIMIZATION"**
 
 Automated deployments improve consistency and reduce the time and effort required to push updates to production. It reduces manual intervention which reduces the likelihood of human errors.
