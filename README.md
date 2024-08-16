@@ -1,13 +1,13 @@
 # **Automated Retail Bank Deployment**
  ---
 
-![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Copy%20of%20Automated%20Retail%20Banking%20App%202.drawio%20(1).png)
+![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Copy%20of%20Automated%20Retail%20Banking%20App%202.drawio%20(2).png)
 
 ---
 
 **Clone this repo to your GitHub account.**
 
-GitHub is the source code management tool of choice. Cloning the repository makes the code available locally to be worked on. Managing codebase with SCM tools like GitHub ensures that as collaboration happens, all changes are tracked, and versions managed appropriately. This step also facilitates integration with automation tools in our CI/CD pipeline, e.g., Jenkins.
+GitHub is the source code management tool of choice. Cloning the repository makes the code available the developer's local environment. Managing codebase with SCM tools like GitHub ensures that as collaboration happens, all changes are tracked, and versions managed appropriately. This step also facilitates integration with automation tools in our CI/CD pipeline, e.g., Jenkins.
 
 - git clone https://github.com/uzobola/Retail-Bank-Deployment-Workload-2.git
 
@@ -42,8 +42,9 @@ $sudo systemctl status jenkins
 
 ```
 
+---
 ![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/blob/raw/Jenkins%20Running.png)
-
+---
 
 ### **Create a MultiBranch Pipeline and connect it to GitHub Repo**
 
@@ -89,6 +90,11 @@ b. Make sure that the "Build Configuration" section says "Mode: by Jenkinsfile" 
 c. Click "Save" and a build should start automatically
 
 
+---
+
+![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Initial%20Jenkins%20Build.png)
+
+---
 
 ### **"OPTIMIZATION"**
 
