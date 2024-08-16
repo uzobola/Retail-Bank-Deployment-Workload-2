@@ -105,6 +105,8 @@ Navigate to the pipeline directory within the Jenkins "workspace"
 
 $cd /var/lib/jenkins/workspace/deployment2_main
 
+---
+
 **Activate the Python Virtual Environment**
 
 source venv/bin/activate
@@ -113,6 +115,8 @@ A Python **virtual environment** is a directory that contains a Python runtime, 
 
 A benefit of Python virtual environments is that this isolation of projects allows for the management of dependencies, versions, and libraries specific to one project without affecting others.
 
+---
+
 **Installing AWS EB CLI on the Jenkins Server**
 
 ( The AWS Elastic Beanstalk Command Line Interface (EB CLI) is a tool that helps manage the automated deployment of applications on AWS Elastic Beanstalk directly from the local repository)
@@ -120,6 +124,8 @@ A benefit of Python virtual environments is that this isolation of projects allo
 $ pip install awsebcli
 
 $ $eb ---version
+
+---
 
 Configuring AWS CLI on the Server ( Configuring the AWS Command Line Interface (CLI) helps with the seamless management of AWS services directly from the command line. )
 
@@ -191,6 +197,7 @@ Automated deployments improve consistency and reduce the time and effort require
 - **Improved Code Quality:** Automated deployments ensure that only quality code is deployed which leads to better application quality.
 - **Performance Monitoring:** Automating deployments can help track the health and performance of deployments so that issues are identified and resolved in time.
 
+---
 
 ### **Potential Issues with Automation Deployments**
 
