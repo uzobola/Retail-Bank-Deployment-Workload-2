@@ -99,6 +99,58 @@ c. Click "Save" and a build should start automatically
 
 ---
 
+Navigate to the pipeline directory within the Jenkins "workspace"
+
+( I used $find / -type d -name "workspace" 2>/dev/null to find the workspace)
+
+$cd /var/lib/jenkins/workspace/deployment2_main
+
+**Activate the Python Virtual Environment**
+
+source venv/bin/activate
+
+A Python **virtual environment** is a directory that contains a Python runtime, libraries, and scripts specific to a Python project. It isolates the Python environment for a specific project ( In this case, the retail bank application) from other Python projects on the same system.
+
+A benefit of Python virtual environments is that this isolation of projects allows for the management of dependencies, versions, and libraries specific to one project without affecting others.
+
+**Installing AWS EB CLI on the Jenkins Server**
+
+( The AWS Elastic Beanstalk Command Line Interface (EB CLI) is a tool that helps manage the automated deployment of applications on AWS Elastic Beanstalk directly from the local repository)
+
+$ pip install awsebcli
+
+$ $eb ---version
+
+Configuring AWS CLI on the Server ( Configuring the AWS Command Line Interface (CLI) helps with the seamless management of AWS services directly from the command line. )
+
+$ aws configure
+
+a. Enter your access key
+
+b. Enter your secret access key
+
+c. region: "us-east-1"
+
+d. output format" "json"
+
+e. check to see if AWS CLI has been configured by entering:
+
+$ aws ec2 describe-instances
+
+---
+![AWS CLI Version](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/aws%20cli%20version.png)
+
+---
+
+
+---
+
+![AWS EB CLI Version](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/aws%20eb%20cli%20version.png)
+
+
+---
+
+---
 
 Initialize AWS Elastic Beanstalk CLI
 
