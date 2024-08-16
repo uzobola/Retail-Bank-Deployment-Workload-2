@@ -43,7 +43,8 @@ $sudo systemctl status jenkins
 ```
 
 ---
-![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/blob/raw/Jenkins%20Running.png)
+[![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/blob/raw/Jenkins%20Running.png)](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Initial%20Jenkins%20Build.png
+)
 ---
 
 ### **Create a MultiBranch Pipeline and connect it to GitHub Repo**
