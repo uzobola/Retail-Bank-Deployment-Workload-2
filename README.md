@@ -179,6 +179,9 @@ Navigate back to the Jenkins Console and build the pipeline again.
 
 ![Application Server Running](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/application%20server%20running.png)
 
+---
+
+
 
 ---
 ### **"OPTIMIZATION"**
