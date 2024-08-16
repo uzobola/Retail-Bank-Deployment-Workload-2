@@ -1,6 +1,10 @@
 # **Automated Retail Bank Deployment**
 
 
+![Alt text](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/main/Copy of Automated Retail Banking App 2.drawio (1).png)
+
+
+
 **Clone this repo to your GitHub account.**
 
 GitHub is the source code management tool of choice. Cloning the repository makes the code available locally to be worked on. Managing codebase with SCM tools like GitHub ensures that as collaboration happens, all changes are tracked, and versions managed appropriately. This step also facilitates integration with automation tools in our CI/CD pipeline, e.g., Jenkins.
