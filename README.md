@@ -95,8 +95,7 @@ c. Click "Save" and a build should start automatically
 
 ---
 
-[![Automated Retail Banking App](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/blob/raw/Jenkins%20Running.png)](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Initial%20Jenkins%20Build.png
-)
+![Initial Jenkins Build](https://github.com/uzobola/Retail-Bank-Deployment-Workload-2/raw/main/Initial%20Jenkins%20Build.png)
 
 ---
 
